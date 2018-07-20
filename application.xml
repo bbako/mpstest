@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<application>
+	<projectName>hello</projectName>
+	<applicationName>hello mobile</applicationName>
+	<android>
+		<projectName>hello</projectName>
+		<applicationName>hello mobile</applicationName>
+		<packageName>mcore.edu.app</packageName>
+		<compileSdk>android-28</compileSdk>
+	</android>
+	<ios>
+		<projectName/>
+		<applicationName/>
+		<bundleIdentifier/>
+		<deploymentTarget/>
+	</ios>
+	<components/>
+	<libraries>
+        <library api="2.1" id="m.client.library.core" revision="7.36" type="core"/>
+        <library api="2.1" id="m.client.library.addon.db" revision="4.6" type="addon"/>
+        <library api="2.1" id="m.client.library.addon.file" revision="4.9" type="addon"/>
+        <library api="2.1" id="m.client.library.addon.media" revision="5.17" type="addon"/>
+        <library api="2.1" id="m.client.library.addon.net" revision="4.12" type="addon"/>
+        <library api="2.1" id="m.client.library.addon.netExt" revision="4.19" type="addon"/>
+        <library api="2.1" id="m.client.library.addon.popup" revision="4.18" type="addon"/>
+        <library api="2.1" id="m.client.library.addon.zip" revision="4.2" type="addon"/>
+    </libraries>
+</application>
